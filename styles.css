@@ -1,0 +1,44 @@
+.steps ul li, .ingredients ul li {list-style: square}
+
+ul li {list-style: none;}
+
+.paragraphs {border-bottom: 2px solid black;}
+
+h1 {text-align: center;
+font-family: Arial, Helvetica, sans-serif;}
+
+h3, h4 {font-family: Arial, Helvetica, sans-serif;}
+
+a, a:hover{text-decoration:none;
+color: black;
+}
+
+.recipes-list {display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 0px;
+margin: auto;}
+
+.recipes-list .recipe-link
+{width: 200px;
+height: 200px;
+border-radius: 15%;
+border: 2px solid black;
+margin: 40px auto;
+object-fit: cover;}
+
+img {width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    display: block;
+position: relative;
+left: calc(50% - 100px)}
+
+.index-header {border-bottom: 2px solid black;
+text-align: center;}
+
+.recipe-link:hover {transform: scale(105%);}
+
+.recipes-list .recipe-link .caption {text-align: center;}
