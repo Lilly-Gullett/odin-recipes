@@ -13,25 +13,16 @@ a, a:hover{text-decoration:none;
 color: black;
 }
 
-.recipes-list {display: flex;
-flex-direction:row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-gap: 0px;
-margin: auto;}
-
 .recipes-list .recipe-link
 {width: 200px;
 height: 200px;
-border-radius: 15%;
+border-radius: 15px;
 border: 2px solid black;
-margin: 40px auto;
-object-fit: cover;}
+margin: 10px;}
 
 img {width: 200px;
     height: 200px;
-    border-radius: 15%;
+    border-radius: 15px;
     display: block;
 position: relative;
 left: calc(50% - 100px)}
@@ -41,4 +32,22 @@ text-align: center;}
 
 .recipe-link:hover {transform: scale(105%);}
 
-.recipes-list .recipe-link .caption {text-align: center;}
+.recipes-list .recipe-link .caption {text-align: center; 
+    background-color: gray;
+    z-index: 1;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 0 0 15px 15px;
+}
+
+.recipes-list ul {padding:0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 0px;
+margin: auto;}
+
+
+.recipe-link img {margin-bottom:-44px;
+z-index: -1;}
