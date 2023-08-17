@@ -72,24 +72,6 @@ img {
     border: 2px black solid;
 }
 
-
-
-/*
-
-
-
-.recipes-list ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: auto;
-}
-
-*/
-
-
 /* Recipe Page */
 .recipe-page {
     display: flex;
